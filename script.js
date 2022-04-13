@@ -25,7 +25,7 @@ $("button").click(function () {
 function randomSong() {
   var $target = $("#target");
   var item = items[Math.floor(Math.random() * items.length)];
-  var word = words[Math.floor(Math.random() * items.length)];
+  var word = words[Math.floor(Math.random() * words.length)];
   $target.html(
     "<h4 id='my' class='text-center'>" +
       `<a href=${item}>` +
@@ -54,11 +54,11 @@ var items = Array(
   "https://www.youtube.com/watch?v=U2JMCxOmjRk",
   "https://www.youtube.com/watch?v=cTMucy4PR2k"
 );
-var words = [
+var words = Array(
   "hewe you go",
   "moi",
   "ilysm ymbf",
   "broccoli",
   "sotd",
-  "akulchev",
-];
+  "akulchev"
+);
