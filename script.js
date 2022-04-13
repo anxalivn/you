@@ -28,7 +28,7 @@ function randomSong() {
   var word = words[Math.floor(Math.random() * items.length)];
   $target.html(
     "<h4 id='my' class='text-center'>" +
-      <a href={item}></a> +
+      <a href={item}> {word} </a> +
       "</h4><p id='para'>"
   );
 }
@@ -50,7 +50,7 @@ var items = Array(
   "https://youtu.be/usuHRa9MNIc",
   "https://www.youtube.com/watch?v=tidhZ1YBR-A&ab_channel=Elderbrook-Topic",
   "https://www.youtube.com/watch?v=U2JMCxOmjRk",
-  "https://www.youtube.com/watch?v=cTMucy4PR2k",
+  "https://www.youtube.com/watch?v=cTMucy4PR2k"
 );
 var words = [
   "hewe you go",
