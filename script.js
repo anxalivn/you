@@ -28,7 +28,9 @@ function randomSong() {
   var word = words[Math.floor(Math.random() * items.length)];
   $target.html(
     "<h4 id='my' class='text-center'>" +
-      <a href={item}> {word} </a> +
+      `<a href=${item}>` +
+      { word } +
+      "</a>" +
       "</h4><p id='para'>"
   );
 }
