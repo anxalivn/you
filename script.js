@@ -24,39 +24,37 @@ $("button").click(function () {
 
 function randomSong() {
   var $target = $("#target");
-  var item = items[Math.floor(Math.random() * items.length)];
-  var word = words[Math.floor(Math.random() * words.length)];
+  var random = Math.floor(Math.random() * items.length);
+  var item = items[random];
+  var word = words[random];
   $target.html(
     "<h4 id='my' class='text-center'>" +
-      `<a href=${item}> ${word} </a>` +
+      `<a href=${item}>` +
+      { word } +
+      "</a>" +
       "</h4><p id='para'>"
   );
 }
 
 var items = Array(
-  "https://www.youtube.com/watch?v=l4UkYBr1NnA&ab_channel=Fredagain..",
-  "https://youtu.be/G04fG-4JcrI",
-  "https://youtu.be/oZ4Wu-1jBsA",
-  "https://www.youtube.com/watch?v=zPrUtko9jMs",
-  "https://youtu.be/sZd-t5-I5uA",
-  "https://youtu.be/6VFoh5AbpBM",
-  "https://www.youtube.com/watch?v=EtMb1MYjdDQ",
-  "https://www.youtube.com/watch?v=Sp6idnemeE0",
-  "https://www.youtube.com/watch?v=WGbLX4u6kyk",
-  "https://youtu.be/prR9YVj2Ip8",
-  "https://youtu.be/wMRFp9zBBwY",
-  "https://www.youtube.com/watch?v=sOS9aOIXPEk",
-  "https://www.youtube.com/watch?v=q3drqHDn1bs",
-  "https://youtu.be/usuHRa9MNIc",
-  "https://www.youtube.com/watch?v=tidhZ1YBR-A&ab_channel=Elderbrook-Topic",
-  "https://www.youtube.com/watch?v=U2JMCxOmjRk",
-  "https://www.youtube.com/watch?v=cTMucy4PR2k"
+  "https://www.youtube.com/watch?v=prR9YVj2Ip8",
+  "https://www.youtube.com/watch?v=aQ0NazSOm1I",
+  "https://www.youtube.com/watch?v=CUti779W2WY",
+  "https://www.youtube.com/watch?v=XxUte-68eUQ",
+  "https://www.youtube.com/watch?v=LlVri87Vc3I",
+  "https://www.youtube.com/watch?v=XDF1ysVRqWM",
+  "https://www.youtube.com/watch?v=eVHV9mXSmYA",
+  "https://www.youtube.com/watch?v=vEjszeleo_g",
+  "https://www.youtube.com/watch?v=RhV2b_MTveM"
 );
 var words = Array(
-  "hewe you go",
-  "moi",
-  "ilysm ymbf",
-  "broccoli",
-  "sotd",
-  "akulchev"
+  "spill tab - calvaire",
+  "Easy Life - Sangria",
+  "Kazy Lambist - Annecy",
+  "Metronomy - The Light",
+  "Yasminah (See Your Face Again)",
+  "BAYNK - Simmer",
+  "Hadji Gaviota - RUNNER'S HIGH",
+  "Solstice - Yeek",
+  "K. Roosevelt - Blinding My Vision"
 );
