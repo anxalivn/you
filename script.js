@@ -35,24 +35,18 @@ function randomSong() {
 }
 
 var items = Array(
-  "https://www.youtube.com/watch?v=prR9YVj2Ip8",
-  "https://www.youtube.com/watch?v=aQ0NazSOm1I",
-  "https://www.youtube.com/watch?v=CUti779W2WY",
-  "https://www.youtube.com/watch?v=XxUte-68eUQ",
-  "https://www.youtube.com/watch?v=LlVri87Vc3I",
-  "https://www.youtube.com/watch?v=XDF1ysVRqWM",
-  "https://www.youtube.com/watch?v=eVHV9mXSmYA",
-  "https://www.youtube.com/watch?v=vEjszeleo_g",
-  "https://www.youtube.com/watch?v=RhV2b_MTveM"
+  "https://www.youtube.com/watch?v=RI4h-cs450o",
+  "https://www.youtube.com/watch?v=lCrO__-MH6E",
+  "https://www.youtube.com/watch?v=xU-pLTx3Jq8",
+  "https://www.youtube.com/watch?v=S13Q3XjbVPI",
+  "https://www.youtube.com/watch?v=_k3jUpb9t2k",
+  
+
 );
 var words = Array(
-  "spill tab - calvaire",
-  "Easy Life - Sangria",
-  "Kazy Lambist - Annecy",
-  "Metronomy - The Light",
-  "Yasminah (See Your Face Again)",
-  "BAYNK - Simmer",
-  "Hadji Gaviota - RUNNER'S HIGH",
-  "Solstice - Yeek",
-  "K. Roosevelt - Blinding My Vision"
+  "KennyHoopla - Lost Cause//",
+  "DOPE LEMON vs. CEDRIC GERVAIS - HEY YOU",
+  "CYANIDE",
+  "rusowsky - so so",
+  "STAY UP",
 );
